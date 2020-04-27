@@ -20,7 +20,8 @@ LOVE();
     }
     private void LOVE()
     {
-
+int a;
+int b;
     }
 
 }
