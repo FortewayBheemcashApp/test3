@@ -12,9 +12,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 good();
+LOVE();
+
     }
     private void good(){
         //new comment
+    }
+    private void LOVE()
+    {
+
     }
 
 }
