@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpPage" />
+        <activity android:name=".TermsAndConditions" />
+        <activity android:name=".PrivacyPolicy" />
+        <activity android:name=".FaqsActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".QuestionAcitvity" />
         <activity android:name=".WorkAcitivity" />
         <activity android:name=".MoneyQuestion" />
         <activity android:name=".AboutUs" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".PrivacyPolicy">
+        <activity android:name=".UpdateProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,5 +29,9 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>
